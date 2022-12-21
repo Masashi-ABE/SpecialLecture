@@ -20,5 +20,5 @@ class TestCSVPrinter(unittest.TestCase):
             printer.read()
         except FileNotFoundError as e:
             print(e)
-            print("This file did not find")
+            print("This file did not be found")
 
