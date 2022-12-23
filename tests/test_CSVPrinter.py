@@ -6,6 +6,7 @@ class TestCSVPrinter(unittest.TestCase):
     def test_read(self):
         printer = CSVPrinter("sample.csv")
         l = printer.read()
+        print(l)
         self.assertEqual(3, len(l))
 
     def test_read2(self):
