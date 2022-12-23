@@ -22,3 +22,4 @@ class TestCSVPrinter(unittest.TestCase):
             print(e)
             print("This file did not be found")
 
+unittest.main()
