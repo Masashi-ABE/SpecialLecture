@@ -21,4 +21,9 @@ class TestCSVPrinter(unittest.TestCase):
         except FileNotFoundError as e:
             print(e)
             print("This file did not be found")
+            
+   
+   
+if __name__ == "__main__":
+    unittest.main()
 
